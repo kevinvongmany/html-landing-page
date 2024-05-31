@@ -73,7 +73,11 @@ footer div{
 .center-items{
     text-align: center;
     margin: 0px auto;
-    width: 100%;
+    width: 50%;
+}
+
+.text-center{
+    text-align: center;
 }
 
 #top-pad{
@@ -81,6 +85,42 @@ footer div{
     padding-top: 50px;
 }
 
-.text-center{
+#content-form{
+    display: block;
+    width: 800px;
+    margin: 30px;
+}
+form{
+    background-color: #494949;
+    border-radius: 11px;
+    padding: 2rem;
+}
+form input, textarea {
+    margin: 0px 0px 30px 0px;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+label {
+    font-size: 30px;
+    margin: 0 100% 0 0 ;
+    text-align: left;
+    align-items: left;
+    color: white;
+}
+form button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
 }

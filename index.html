@@ -9,7 +9,7 @@
 <body>
   <header>
     <div>
-      <h1>Landing Page</h1>
+      <h1>Kevin Vongmany</h1>
       <ul class="right-align hyperlink-black">
         <li><a href="https://github.com/kevinvongmany" target="_blank">Github</a></li>
         <li><a href="#">About</a></li>
@@ -27,26 +27,14 @@
   <section id="contact" >
     <div class="center-items">
       <h2>Contact Form</h2>
-      <form class="center-items">
-        <ul >
-          <li>
-            <p>Name:</p>
-            <input type="text" id="name">
-          </li>
-          <li>
-            <p>Email:</p>
-            <input type="text" id="email">
-          </li>
-          <li>
-            <p>Message:</p>
-            <input type="text" id="message">
-          </li>
-          <br>
-          <li>
-            <button type="submit">Submit</button>
-          </li>
-          <br>
-        </ul>
+      <form id="contact-form" >
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter name" >
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter email, e.g. email@domain.com">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows=5 placeholder="Write your message here"></textarea>    
+        <button type="submit">Submit</button>
       </form>
     </div>
   </section>
